@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog Pribadi Choi Hyun-wook</title>
+  <style>
+    :root{
+      --bg:#f7f7f7;
+      --card:#ffffff;
+      --text:#222;
+      --muted:#666;
+      --tableHead:#111;
+      --tableHeadText:#fff;
+      --border:#e5e5e5;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.6;
+    }
+    header{
+      padding:32px 16px 8px;
+      text-align:center;
+      background:var(--card);
+      border-bottom:1px solid var(--border);
+    }
+    h1{
+      margin:0 0 8px;
+      font-size:28px;
+      font-weight:700;
+    }
+    .container{
+      max-width:900px;
+      margin:24px auto;
+      padding:0 16px 40px;
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:10px;
+      box-shadow:0 2px 10px rgba(0,0,0,.04);
+    }
+    .hero{
+      text-align:center;
+      padding:24px 16px 0;
+    }
+    .hero img{
+      width:160px;
+      height:160px;
+      object-fit:cover;
+      border-radius:10px;
+      display:block;
+      margin:0 auto 12px;
+      box-shadow:0 6px 18px rgba(0,0,0,.15);
+    }
+    .intro{
+      text-align:center;
+      color:var(--muted);
+      margin:0 auto 24px;
+      max-width:700px;
+    }
+    h2{
+      font-size:20px;
+      margin:24px 16px 8px;
+    }
+    .table-wrap{
+      padding:0 16px 24px;
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      overflow:hidden;
+      border-radius:8px;
+    }
+    thead th{
+      background:var(--tableHead);
+      color:var(--tableHeadText);
+      text-align:left;
+      padding:12px 14px;
+      font-weight:700;
+      letter-spacing:.3px;
+    }
+    tbody td{
+      padding:12px 14px;
+      border-bottom:1px solid var(--border);
+    }
+    tbody tr:nth-child(even){background:#fafafa}
+    .label{
+      width:35%;
+      font-weight:600;
+    }
+    footer{
+      text-align:center;
+      color:var(--muted);
+      font-size:14px;
+      padding:20px 0 32px;
+    }
+    @media (max-width:560px){
+      .hero img{width:130px;height:130px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blog Pribadi Choi Hyun-wook</h1>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <!-- Ganti src di bawah dengan lokasi gambarmu -->
+      <img src="images/hyunwook.jpg.jpeg" alt="Choi Hyu-nwook">
+      <p class="intro">Halo Hyunie! Selamat datang di blog saya. Saya akan berbagi cerita dan pengalaman di sini.</p>
+    </section>
+
+    <section>
+      <h2>Profil Singkat</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>Detail</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="label">Nama Asli</td>
+              <td>Choi Hyun-wook</td>
+            </tr>
+            <tr>
+              <td class="label">Nama Panggung</td>
+              <td>Choi Hyun-wook</td>
+            </tr>
+            <tr>
+              <td class="label">Lahir</td>
+              <td>30 Januari 2002</td>
+            </tr>
+            <tr>
+              <td class="label">Tempat Lahir</td>
+              <td>Korea Selatan</td>
+            </tr>
+            <tr>
+              <td class="label">Agensi</td>
+              <td>Gold Medalist</td>
+            </tr>
+            <tr>
+              <td class="label">Pekerjaan</td>
+              <td>Aktor</td>
+            </tr>
+            <tr>
+              <td class="label">Tinggi</td>
+              <td>181</td>
+            </tr>
+            <tr>
+              <td class="label">Golongan Darah</td>
+              <td>O</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <hr>
+    <h1>Perjalanan Karir dan Inspirasi</h1>
+    <small>Diposting pada 5 september 2025</small>
+    <blockquote><small>saya adalah yang sangat penting <q>penting</q> bagi saya. <cite>Saya sangat menikmati</cite> setiap momen yang ada diatas panggung dan bertemu fans</small></blockquote>
+    <h2>Hal-hal yang Menginspirasi Saya:</h2>
+    <ol>
+      <li>Seni dan Aktor</li>  
+      <ul type="circle">
+          <li><small>Fotografi dan Lukisan</small></li>
+          <li><small>mengekspresikan diri melalu peran</small></li>
+      </ul>
+      <li>Pengalaman Hidup</li>
+      <ul type="square">
+          <li><small>keliling dunia</small></li>
+          <li><small>menyapa penggemar di Fansite</small></li>
+      </ul>
+    </ol>
+
+    <blockquote><small>Saya juga senang berbagi film rekomendasi, seperti tautan untuk <a href="filmfavorit.html">Film Favorit Saya</a></small></blockquote>
+    <blockquote><small>Dan ini adalah gambar yang saya suka:</small></blockquote>
+    <img src="images/choi.jpg.jpeg" height="500">
+    <hr>
+    <blockquote><small>Sebuah momen yang paling berkesan bagi saya adalah saat melihat <mark>para penggemar saya selalu mendukung saya.</mark> ini adalah hal yang paling berharga bagi saya</small></blockquote>
+    <blockquote><small>Saya terinspirasi dari, <q><cite>kecintaannya pada film dan buku yang saya gunakan untuk mendalami peran dan mengikuti audisi, bahkan saya akan memvisualisasikan diri menjadi tokoh utama saat menonton film.</cite></q> Ini adalah inspirasi yang membuat saya mau menjadi aktor</small></blockquote>
+    <hr>
+    <h3>Drama yang saya bintangi:</h3>
+    <h4>Racket Boys</h4>
+    <img src="images/racketboys.jpg.jpeg" alt="Racket Boys" height="500">
+    <h4>Five Twenty One</h4> 
+    <img src="images/twentyfive.jpg.jpeg" height="500">
+    <h4>Weak Hero Class</h4>
+    <img src="images/weakhero.jpg.jpeg" height="500">
+    <h4>Taxi Driver</h4>
+    <img src="images/taxidriver.jpg.jpg" height="500">
+    <h4>Twinkling Watermelon</h4>
+    <img src="images/twinkling.jpg.jpeg" height="500">
+    <h4>My Dearest Man</h4>
+    <img src="images/dearest.jpg.png" height="500">
+    <hr>
+    <h2>Tinggalkan Pesan Untuk Choi Hyun-wook</h2>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinggalkan Pesan untuk choi Hyun-wook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            display: grid;
+            gap: 15px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Ensures padding doesn't affect total width */
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+    <div class="container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nama-army">Nama :</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda untuk V di sini..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="mood">Mood Hari Ini:</label>
+                <select id="mood" name="mood">
+                    <option value="sangat-bahagia">Sangat Bahagia</option>
+                    <option value="bahagia">Bahagia</option>
+                    <option value="netral">Netral</option>
+                    <option value="sedih">Sedih</option>
+                    <option value="sangat-sedih">Sangat Sedih</option>
+                </select>
+            </div>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+
+    <p class="copyright">Hak Cipta &copy; 2025 Blog Pribadi Choi Hyun-wook. Semua hak dilindungi.</p>
+    <footer>
+      © 2025 — Blog Fansite sederhana
+    </footer>
+  </main>
+</body>
+</html>
